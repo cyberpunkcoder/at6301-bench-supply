@@ -5,6 +5,8 @@ Live V/I/P readout and rolling plot, voltage / current-limit / output control, C
 
 The Python itself is cross-platform; only the installer and shortcuts are Windows-specific.
 
+![AT6301 Bench Supply - live plot of two output cycles at 48 V](docs/screenshot.png)
+
 ## Install
 Run `install.bat`. Needs [uv](https://astral.sh/uv) on PATH (it creates a private venv under
 `%LOCALAPPDATA%\Programs\at6301-bench-supply`, adds Start Menu + Desktop shortcuts).
